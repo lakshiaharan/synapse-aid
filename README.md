@@ -13,15 +13,21 @@
 
 ---
 
-## 📌 Project Scope & Simulation Transparency
+## 📌 Project Scope & Technical Implementation Transparency
+
+To ensure complete interview defensibility and clarity regarding what is built from scratch vs. external/simulated:
+
+| System Layer | Technical Implementation Details | Implementation Scope |
+| :--- | :--- | :--- |
+| **Gale-Shapley Matcher** | Stable-matching algorithmic solver prioritizing role affinities, distance matrices, certifications, and responder score ratings | **Implemented from scratch (TypeScript)** |
+| **Dense + Sparse RAG Engine** | Client-side 24-D synthetic semantic vector projection + BM25 keyword tokenizer with rank fusion and XAI explainability chips | **Implemented from scratch (TypeScript)** |
+| **Deterministic Audit Ledger** | Cryptographic SHA-256 block receipt generator creating immutable verification trails for disaster manifests | **Implemented from scratch (TypeScript)** |
+| **GIS Tactical Map & Vectors** | Interactive relief map, dynamic incident bounding boxes, and transit vector rendering | **Implemented from scratch (Canvas / DOM)** |
+| **Speech & NLU Processing** | Real-time speech-to-text distress capture and speech synthesis via Web Speech API (with optional Google Gemini API fallback) | **Browser API & Optional External LLM** |
+| **Emergency Telemetry & Depletion** | Synthetic multi-agent response timings (~97ms latency models) and regional warehouse depletion rate simulations | **Deterministic Simulation Layer** |
 
 > [!NOTE]
-> **Architecture & Demonstration Scope**  
-> SynapseAid is a fully functional **client-side prototype and simulation**:
-> * **In-Browser Vector Search**: Uses a client-side 24-dimensional semantic projection with Cosine Similarity and BM25 lexical keyword ranking over indexed disaster SOPs (no external vector database required).
-> * **Multi-Agent Coordination**: Simulates a multi-agent orchestration pipeline (NLP entity triage, Gale-Shapley volunteer matching, supply route optimization, and SHA-256 cryptographic manifest hashing) running deterministically in the browser.
-> * **Telemetry & Benchmarks**: Response times (e.g. simulated ~97ms benchmark) and warehouse depletion rates are modeled for demonstration purposes.
-> * **Zero Mandatory Cloud Dependencies**: Runs 100% locally out-of-the-box, with an optional client-side Google Gemini API integration for dynamic LLM response generation.
+> **Zero Mandatory Cloud Dependencies**: The system executes 100% deterministically in the client browser out-of-the-box, with zero external database or paid API requirements.
 
 ---
 
