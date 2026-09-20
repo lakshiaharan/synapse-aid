@@ -1,4 +1,4 @@
-# 🌱 SynapseAid — Humanitarian Crisis Coordination & Multi-Agent Dispatch Simulation
+# 🌱 SynapseAid — Emergency Response & Multi-Agent Dispatch Simulation Prototype
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?logo=vercel&logoColor=white)](https://synapse-aid.vercel.app)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5+-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -7,7 +7,7 @@
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](./LICENSE)
 
-**SynapseAid** is an interactive, browser-based emergency operations command center and multi-agent dispatch simulation designed for disaster response scenarios (floods, structural collapses, and medical relief).
+**SynapseAid** is an interactive, browser-based emergency-response simulation prototype implementing deterministic multi-agent coordination (Gale-Shapley matching), client-side hybrid retrieval (dense vector + BM25 ranking), and optional LLM integration for disaster scenarios.
 
 > 🌐 **Live Demo**: [https://synapse-aid.vercel.app](https://synapse-aid.vercel.app)
 
